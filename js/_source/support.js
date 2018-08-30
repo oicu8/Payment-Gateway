@@ -42,7 +42,7 @@
 		{
 			var logoext = (coinName == 'bitcoin') ? '_' + data.texts.language : '';
 			var a = [];
-			a['dash'] = ['de', 'es', 'nl', 'ru']; 
+			a['ntrn'] = ['de', 'es', 'nl', 'ru']; 
 			a['dogecoin'] = ['cn', 'de', 'es', 'fr', 'hi', 'ru', 'zh']; 
 			a['feathercoin'] = ['es', 'ru']; 
 			a['litecoin'] = ['cn', 'de', 'es', 'fr', 'hi', 'nl', 'ru', 'zh']; 

@@ -4,7 +4,7 @@ GoUrl.io Cryptocoin Payment Gateway API
 
 Version 2.1.4
 
-**Accept Bitcoin, Bitcoin Cash, Litecoin, Dash, Dogecoin, Speedcoin, Reddcoin, Potcoin, Feathercoin, Vertcoin, Peercoin, UniversalCurrency, MonetaryUnit Payments Online on your website**
+**Accept Bitcoin, Bitcoin Cash, Litecoin, Neutron, Dogecoin, Speedcoin, Reddcoin, Potcoin, Feathercoin, Vertcoin, Peercoin, UniversalCurrency, MonetaryUnit Payments Online on your website**
 
 # ![Payment-Gateway](https://gourl.io/images/gateway.jpg)
 
@@ -77,7 +77,7 @@ How It Works
 You can use the following steps to sell your products on your website for cryptocoins if you wish to and can automatically convert them to USD
 
 * [Install](https://gourl.io/api-php.html#installation) GoUrl crypto Payment Box on your website and dynamically configure order id, currency, amount to pay, etc. Or use [Monetiser Online](https://gourl.io/view/newurl/Cryptocoin_Monetiser_Make_Money_Online.html) if you don't have your own website.
-* You can accept payments in Bitcoins only or you can accept other coins - Bitcoin Cash, Dogecoin, Litecoin, Dash, etc also. See [Demo1](https://gourl.io/lib/examples/pay-per-product-multi.php) (multiple coins) or [Demo2](https://gourl.io/lib/examples/pay-per-membership.php?gourlcryptocoin=bitcoin) (Bitcoin only)
+* You can accept payments in Bitcoins only or you can accept other coins - Bitcoin Cash, Dogecoin, Litecoin, Neutron, etc also. See [Demo1](https://gourl.io/lib/examples/pay-per-product-multi.php) (multiple coins) or [Demo2](https://gourl.io/lib/examples/pay-per-membership.php?gourlcryptocoin=bitcoin) (Bitcoin only)
 * When you [setup](https://gourl.io/editrecord/coin_boxes/0) Cryptocoin Payment Box, you can enter the [original amount](https://gourl.io/images/instruction-config2.png) in USD or in cryptocoins. The USD amount will be automatically converted to cryptocoin amount using today's LIVE cryptocurrency exchange rates (updated every 30 minutes) and the cryptocoin amount will be displayed in the payment box. For example, if you entered 20 USD, it will display 0.059 BTC in the payment box.
 * You will need to create an account on [Poloniex.com](https://poloniex.com/) or on [Bitstamp.net](https://www.bitstamp.net/) (trading platforms)
 * [Setup](https://gourl.io/images/instruction-config3.png) so that all your received payments are automatically forwarded from your GoUrl.io account to your account on Poloniex / Bitstamp (enter your Poloniex/Bitstamp coin wallet address in gourl [payment box settings](https://gourl.io/images/instruction-config3.png)). And use the "autosell" feature (auto trade your cryptocoins to USD) on Poloniex/Bitstamp.
@@ -181,7 +181,7 @@ Payment API List :
 * [Bitcoin Payment API](https://gourl.io/bitcoin-payment-gateway-api.html)
 * [Bitcoin Cash Payment API](https://gourl.io/bitcoincash-payment-gateway-api.html)
 * [Litecoin Payment API](https://gourl.io/litecoin-payment-gateway-api.html)
-* [Dash Payment API](https://gourl.io/dash-payment-gateway-api.html)
+* [Neutron Payment API](https://gourl.io/ntrn-payment-gateway-api.html)
 * [Dogecoin Payment API](https://gourl.io/dogecoin-payment-gateway-api.html)
 * [Speedcoin Payment API](https://gourl.io/speedcoin-payment-gateway-api.html)
 * [Reddcoin Payment API](https://gourl.io/reddcoin-payment-gateway-api.html)
