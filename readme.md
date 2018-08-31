@@ -181,7 +181,7 @@ Payment API List :
 * [Bitcoin Payment API](https://gourl.io/bitcoin-payment-gateway-api.html)
 * [Bitcoin Cash Payment API](https://gourl.io/bitcoincash-payment-gateway-api.html)
 * [Litecoin Payment API](https://gourl.io/litecoin-payment-gateway-api.html)
-* [Neutron Payment API](https://gourl.io/ntrn-payment-gateway-api.html)
+* [Neutron Payment API](https://gourl.io/Neutron-payment-gateway-api.html)
 * [Dogecoin Payment API](https://gourl.io/dogecoin-payment-gateway-api.html)
 * [Speedcoin Payment API](https://gourl.io/speedcoin-payment-gateway-api.html)
 * [Reddcoin Payment API](https://gourl.io/reddcoin-payment-gateway-api.html)

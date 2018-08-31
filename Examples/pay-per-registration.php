@@ -167,7 +167,7 @@
 
 	<div style='width:600px;padding-top:10px'>
 			<div style='font-size:12px; margin:5px 0 5px 390px;'>Language: &#160; <?php echo $languages_list; ?></div>
-			<?php echo $box->display_cryptobox(true, 540, 230, "border-radius:15px;border:2px ntrned #eee;padding:3px 6px;margin:10px"); ?>
+			<?php echo $box->display_cryptobox(true, 540, 230, "border-radius:15px;border:2px Neutroned #eee;padding:3px 6px;margin:10px"); ?>
 	</div>
 	
 	<?php if (!$box->is_paid()): ?>

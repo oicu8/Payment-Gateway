@@ -45,7 +45,7 @@
 
 	// List of coins that you accept for payments
 	// For example, for accept payments in bitcoin, bitcoincash, litecoin use - $available_payments = array('bitcoin', 'bitcoincash', 'litecoin'); 
-	$available_payments = array('bitcoin', 'bitcoincash', 'litecoin', 'ntrn', 'dogecoin', 'speedcoin', 'reddcoin', 'potcoin', 'feathercoin', 'vertcoin', 'peercoin', 'monetaryunit', 'universalcurrency');
+	$available_payments = array('bitcoin', 'bitcoincash', 'litecoin', 'Neutron', 'dogecoin', 'speedcoin', 'reddcoin', 'potcoin', 'feathercoin', 'vertcoin', 'peercoin', 'monetaryunit', 'universalcurrency');
 	
 	
 	// Goto  https://gourl.io/info/memberarea/My_Account.html

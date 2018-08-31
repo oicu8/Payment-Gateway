@@ -70,8 +70,8 @@
 	
 	
 	// List of coins that you accept for payments
-	//$coins = array('bitcoin', 'bitcoincash', 'litecoin', 'ntrn', 'dogecoin', 'speedcoin', 'reddcoin', 'potcoin', 'feathercoin', 'vertcoin', 'peercoin', 'monetaryunit', 'universalcurrency');
-	$coins = array('bitcoin', 'bitcoincash', 'litecoin', 'ntrn', 'speedcoin');  // for example, accept payments in bitcoin, bitcoincash, litecoin, ntrn, speedcoin 
+	//$coins = array('bitcoin', 'bitcoincash', 'litecoin', 'Neutron', 'dogecoin', 'speedcoin', 'reddcoin', 'potcoin', 'feathercoin', 'vertcoin', 'peercoin', 'monetaryunit', 'universalcurrency');
+	$coins = array('bitcoin', 'bitcoincash', 'litecoin', 'Neutron', 'speedcoin');  // for example, accept payments in bitcoin, bitcoincash, litecoin, Neutron, speedcoin 
 	
 	// Create record for each your coin - https://gourl.io/editrecord/coin_boxes/0 ; and get free gourl keys
 	// It is not bitcoin wallet private keys! Place GoUrl Public/Private keys below for all coins which you accept
@@ -90,8 +90,8 @@
 					  					"private_key" => "25656AAeOGaPBitcoincash77BCHPRV8quZcxPwfEc93ArGB6D"),
 					  "litecoin" => array(	"public_key" => "25657AAOwwzoLitecoin77LTCPUB4PVkUmYCa2dR770wNNstdk", 
 					  					"private_key" => "25657AAOwwzoLitecoin77LTCPRV7hmp8s3ew6pwgOMgxMq81F"),
-					  "ntrn" => array(		"public_key" => "25658AAo79c3Neutron77ntrnPUBqwIefT1j9fqqMwUtMI0huVL0J", 
-					  					"private_key" => "25658AAo79c3Neutron77ntrnPRVG7w3jg0Tc5Pfi34U8o5JEiTss"),
+					  "Neutron" => array(		"public_key" => "25658AAo79c3Neutron77NTRNPUBqwIefT1j9fqqMwUtMI0huVL0J", 
+					  					"private_key" => "25658AAo79c3Neutron77NTRNPRVG7w3jg0Tc5Pfi34U8o5JEiTss"),
 					  "speedcoin" => array(	"public_key" => "20116AA36hi8Speedcoin77SPDPUBjTMX31yIra1IBRssY7yFy", 
 					  					"private_key" => "20116AA36hi8Speedcoin77SPDPRVNOwjzYNqVn4Sn5XOwMI2c")); // Demo keys!
 
@@ -99,7 +99,7 @@
 	/* if you use demo keys above, please add to /lib/cryptobox.config.php - 
 		$cryptobox_private_keys = array("25654AAo79c3Bitcoin77BTCPRV0JG7w3jg0Tc5Pfi34U8o5JE", 
 					"25656AAeOGaPBitcoincash77BCHPRV8quZcxPwfEc93ArGB6D", "25657AAOwwzoLitecoin77LTCPRV7hmp8s3ew6pwgOMgxMq81F", 
-					"25658AAo79c3Neutron77ntrnPRVG7w3jg0Tc5Pfi34U8o5JEiTss", "20116AA36hi8Speedcoin77SPDPRVNOwjzYNqVn4Sn5XOwMI2c");
+					"25658AAo79c3Neutron77NTRNPRVG7w3jg0Tc5Pfi34U8o5JEiTss", "20116AA36hi8Speedcoin77SPDPRVNOwjzYNqVn4Sn5XOwMI2c");
 	 	Also create table "crypto_payments" in your database, sql code - https://github.com/cryptoapi/Payment-Gateway#mysql-table
 	 	Instruction - https://gourl.io/api-php.html 	 	
  	*/				   
